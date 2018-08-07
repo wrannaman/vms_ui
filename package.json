@@ -1,0 +1,26 @@
+{
+  "name": "with-mobx",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@feathersjs/feathers": "^3.1.7",
+    "@feathersjs/rest-client": "^1.4.1",
+    "@feathersjs/socketio-client": "^1.1.0",
+    "mobx": "^2.7.0",
+    "mobx-react": "^4.0.4",
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-player": "^1.6.4",
+    "socket.io-client": "^2.1.1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4"
+  }
+}
